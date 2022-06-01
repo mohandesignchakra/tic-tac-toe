@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <script src="action.js" defer></script>
+</head>
+<body>
+    <h2> <span> Welcome to </span> Tic Tac Toe </h2>
+    <div class="board circleTurn" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="note"> <span> How to Play </span> X and O. It is played on a 3x3 grid. <br/> Each player's goal is to make 3 in a row.</div>
+    <div class="winning-message" id="winning-message">
+        <h1 data-winning-message-text>Winner</h1>
+        <button id="restartButton">
+            Restart
+        </button>
+    </div>
+</body>
+</html>
